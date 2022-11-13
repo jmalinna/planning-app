@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from 'next/head';
 import Link from 'next/link';
 import { Typography } from 'antd';
 
@@ -7,6 +8,7 @@ const YearGoalsPage = () => {
 
   return (
     <>
+      <Head><title>Year Goals</title></Head>
       <Title>Year Goals</Title>
       <Link href="/">Back to home page</Link>
     </>
