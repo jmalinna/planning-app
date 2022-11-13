@@ -43,7 +43,9 @@ export default function Home() {
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
-        <a target="_blank" href="https://icons8.com/icon/108633/done">Done</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+        <div className={styles.doneIcon}>
+          <a href="https://icons8.com/icon/108633/done" target="_blank" rel="noopener noreferrer">Done</a> icon by <a href="https://icons8.com" target="_blank" rel="noopener noreferrer">Icons8</a>
+        </div>
       </footer>
     </div>
   )
